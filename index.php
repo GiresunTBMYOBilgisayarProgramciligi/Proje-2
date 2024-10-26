@@ -10,7 +10,7 @@
     <h2>Bu projede çalışanlar</h2>
     <ul>
         <li>Uğur Yılmaz</li>
-        <li></li>
+        <li>Deniz Busenur Kömürlü</li>
         <li></li>
         <li></li>
     </ul>
