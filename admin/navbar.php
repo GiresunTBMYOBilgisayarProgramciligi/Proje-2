@@ -15,6 +15,10 @@
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
+<<<<<<< HEAD
+=======
+    
+>>>>>>> e28435d32e8d17747752ffc04511f526a32f5d11
 
       <!-- Messages Dropdown Menu -->
       <li class="nav-item dropdown">

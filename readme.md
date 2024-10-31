@@ -3,3 +3,4 @@
 ### Geliştiriciler
 - Uğur Yılmaz
 - İrem Eroğlu
+- Deniz Busenur Kömürlü
