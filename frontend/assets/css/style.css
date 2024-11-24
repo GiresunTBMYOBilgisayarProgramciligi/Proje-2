@@ -1,0 +1,155 @@
+*, 
+::after,
+::before
+{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #2d3a4b;
+}
+body{
+    margin: 0 auto;
+}
+.top-bar{
+    height: 50px;
+    background-color: #000;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login{
+    float: right;
+}
+.top-bar ul li{
+    list-style: none;
+    float: left;
+    display: inline;
+    padding: 0 15px;
+}
+.top-bar ul li a{
+    color: #fff;
+    font-size: 12px;
+    line-height: 50px;
+}
+.user-basket{
+    position: relative;
+}
+.user-basket i{
+    font-size: 25px;
+}
+.user-basket .item-count{
+    background-color: #f38509;
+    color: #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    padding-left: 3px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.zoom::before{
+    transition: transform 1s ease;
+}
+.zoom:hover::before{
+    transform: scale(1.5);
+}
+.navbar-wrapper{
+    height: 130px;
+    padding: 30px;
+}
+nav .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    max-height: 70px;
+}
+.navbar .menu{
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+}
+.navbar .menu ul{
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar ul li{
+    display: inline;
+    list-style: none;
+}
+.navbar ul li a{
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    letter-spacing: 3px;
+    transition: all .3s linear;
+    position: relative;
+}
+.navbar ul li.active a:before{
+    width: 100%;
+    height: 5px;
+    top: 30%;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    content: "";
+    background-color: #ffe115;
+    transition: .2s ease-in-out;
+    z-index: -1;
+}
+.navbar ul li a::before{
+    width: 0;
+    margin: 0 auto;
+    position: absolute;
+    content: "";
+    height: 5px;
+    top: 30%;
+    left: 0;
+    z-index: -1;
+    background-color: #ffe115;
+    transition: .4s ease-in-out;
+}
+.navbar ul li a:hover::before{
+    width: 100%;
+}
+
+.nav-right li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
